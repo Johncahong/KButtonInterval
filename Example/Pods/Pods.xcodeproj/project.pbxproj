@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08074CCCC99D8AFC1C23E263FB17CA15 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1E8CCA12EE673E9C5F33D4AA2769A2 /* ReplaceMe.m */; };
 		1B59619471D2C11681B8D9FA6CCDA3E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		39EDFB25CD458D9E271485CACCF5AF8E /* Pods-KButtonInterval_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CEA1341BAAC5B4C1CA0BF17234275C8 /* Pods-KButtonInterval_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4882AE20DC9C24680A45A8789B3A1F7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		5A749786CC833E3B710FBBDD369BBA82 /* KButtonInterval-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 734414D6124370239ED4932F4C0C0D3C /* KButtonInterval-dummy.m */; };
 		DB4FCD090D7CBCB4B6884B5D80B436E9 /* Pods-KButtonInterval_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2078E21158A8EC48B3B8E97BE6E06D20 /* Pods-KButtonInterval_Tests-dummy.m */; };
+		F12A6F7523956E1D00E71EAA /* UIControl+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F12A6F7323956E1D00E71EAA /* UIControl+Extension.m */; };
+		F12A6F7623956E1D00E71EAA /* UIControl+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = F12A6F7423956E1D00E71EAA /* UIControl+Extension.h */; };
 		FF73A9E7514239D61BFA3BAF63159058 /* KButtonInterval-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 286889AC479B42A066DA325B47B74423 /* KButtonInterval-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -27,29 +28,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06B0A1518E709A4D9DECD54B7B9DDE7D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		1500B028FE0B823B0EBD340248E1F649 /* KButtonInterval.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KButtonInterval.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		06B0A1518E709A4D9DECD54B7B9DDE7D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1500B028FE0B823B0EBD340248E1F649 /* KButtonInterval.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KButtonInterval.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		16FFA698BDC5729266499D6EF94FCBE0 /* Pods-KButtonInterval_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KButtonInterval_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2078E21158A8EC48B3B8E97BE6E06D20 /* Pods-KButtonInterval_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KButtonInterval_Tests-dummy.m"; sourceTree = "<group>"; };
 		235B79A688A382A4D387755486D1FFBC /* KButtonInterval.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KButtonInterval.modulemap; sourceTree = "<group>"; };
 		286889AC479B42A066DA325B47B74423 /* KButtonInterval-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KButtonInterval-umbrella.h"; sourceTree = "<group>"; };
 		2BF2EA651D7EC32D077B0CFEB050C5D3 /* Pods-KButtonInterval_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KButtonInterval_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3285FCA56A7CD453B702BCE941F4EA37 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3285FCA56A7CD453B702BCE941F4EA37 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5306E7D266F7ACF0E3511E5D2D4D2436 /* KButtonInterval-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KButtonInterval-prefix.pch"; sourceTree = "<group>"; };
 		6512A224C1A96126C14730525D060827 /* Pods-KButtonInterval_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KButtonInterval_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		678A45DC260E9D2D36AD5B1480D017D9 /* KButtonInterval.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KButtonInterval.framework; path = KButtonInterval.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		678A45DC260E9D2D36AD5B1480D017D9 /* KButtonInterval.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KButtonInterval.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CEA1341BAAC5B4C1CA0BF17234275C8 /* Pods-KButtonInterval_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KButtonInterval_Tests-umbrella.h"; sourceTree = "<group>"; };
 		6E2555FDCBCA2C8F4D10DDCD1B854C71 /* Pods-KButtonInterval_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KButtonInterval_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6F1E8CCA12EE673E9C5F33D4AA2769A2 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = KButtonInterval/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		734414D6124370239ED4932F4C0C0D3C /* KButtonInterval-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KButtonInterval-dummy.m"; sourceTree = "<group>"; };
 		866C84C38613690863044EB29F1C952B /* Pods-KButtonInterval_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KButtonInterval_Tests-Info.plist"; sourceTree = "<group>"; };
 		91CE2F9270BEC19980CB0BECCAD0F64C /* Pods-KButtonInterval_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KButtonInterval_Tests.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A78C4543A16AB0CFE8E413824CCCF2D6 /* KButtonInterval-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KButtonInterval-Info.plist"; sourceTree = "<group>"; };
 		DC27538DC7B0F08260F51F1095428E6E /* Pods-KButtonInterval_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KButtonInterval_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		DF78A89258E86F69CD396520853FA6EF /* Pods_KButtonInterval_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KButtonInterval_Tests.framework; path = "Pods-KButtonInterval_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF78A89258E86F69CD396520853FA6EF /* Pods_KButtonInterval_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KButtonInterval_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9B961C56D727928B2A1C9E2071FF235 /* KButtonInterval.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KButtonInterval.xcconfig; sourceTree = "<group>"; };
+		F12A6F7323956E1D00E71EAA /* UIControl+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIControl+Extension.m"; path = "KButtonInterval/Classes/UIControl+Extension.m"; sourceTree = "<group>"; };
+		F12A6F7423956E1D00E71EAA /* UIControl+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIControl+Extension.h"; path = "KButtonInterval/Classes/UIControl+Extension.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +77,8 @@
 		17BC49314D9A94C71FDB064DD87B224D /* KButtonInterval */ = {
 			isa = PBXGroup;
 			children = (
-				6F1E8CCA12EE673E9C5F33D4AA2769A2 /* ReplaceMe.m */,
+				F12A6F7423956E1D00E71EAA /* UIControl+Extension.h */,
+				F12A6F7323956E1D00E71EAA /* UIControl+Extension.m */,
 				86F97CE8C797310234D955B54924B3B1 /* Pod */,
 				1E2A273FDF9F8D1861C22B8CD1EC80B7 /* Support Files */,
 			);
@@ -183,6 +186,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F12A6F7623956E1D00E71EAA /* UIControl+Extension.h in Headers */,
 				FF73A9E7514239D61BFA3BAF63159058 /* KButtonInterval-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,7 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A749786CC833E3B710FBBDD369BBA82 /* KButtonInterval-dummy.m in Sources */,
-				08074CCCC99D8AFC1C23E263FB17CA15 /* ReplaceMe.m in Sources */,
+				F12A6F7523956E1D00E71EAA /* UIControl+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,8 +462,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
