@@ -1,0 +1,16 @@
+PODS:
+  - KButtonInterval (0.1.0)
+
+DEPENDENCIES:
+  - KButtonInterval (from `../`)
+
+EXTERNAL SOURCES:
+  KButtonInterval:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KButtonInterval: b8cadc080ce5c4883b34a731ee34efeefbb30746
+
+PODFILE CHECKSUM: 38ef7f2ba390a9792d197e5860b07a0dc77958e2
+
+COCOAPODS: 1.7.2

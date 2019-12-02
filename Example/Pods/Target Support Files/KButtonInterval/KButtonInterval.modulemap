@@ -1,0 +1,6 @@
+framework module KButtonInterval {
+  umbrella header "KButtonInterval-umbrella.h"
+
+  export *
+  module * { export * }
+}
