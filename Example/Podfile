@@ -1,0 +1,6 @@
+use_frameworks!
+target 'KButtonInterval_Tests' do
+  pod 'KButtonInterval', :path => '../'
+  
+  
+end
